@@ -49,6 +49,10 @@ nav button{
   margin-left: 10px;
   cursor: pointer;
 }
+nav button a {
+  color: white;
+  text-decoration: none;
+}
 .language-btn{
   display: inline-flex;
   align-items: center;
