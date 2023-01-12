@@ -1,3 +1,10 @@
+const signIn =()=>{
+    window.location.href="profile.html"
+}
+
+
+
+
 const users = ["Murat","Umut","Kemal","Çocuk"];
 
 const memberDiv = document.querySelector(".memberDiv");
