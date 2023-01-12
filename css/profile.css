@@ -119,3 +119,46 @@ html{
     color: #fff;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .logo {
+      width: 100px;
+    }
+    .memberDiv .btn, .addIcon{
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .memberDiv .btn span {
+        width: inherit;
+        /* position: absolute; */
+        bottom: -3rem;
+        left: 15px;
+        text-transform: capitalize;
+        color: rgb(153, 153, 153);
+        font-size: 1.8rem;
+    }
+    .addIcon span{
+        font-size: 1.8rem;
+        bottom: -3rem;
+        width: 100px;
+        left: -1rem;
+    }
+    .main-div h1{
+        font-size: 3.5rem;
+        letter-spacing: 0.2rem;
+        font-size: 600;
+        margin-top: 40px;
+    }
+    .manageProfile{
+        border: 1px solid gray;
+        color: gray;
+        text-transform: uppercase;
+        padding: 0.8rem 1rem;
+        letter-spacing: .5rem;
+        font-size: 1.5rem;
+        margin-top: 7rem;
+    }
+  }
+  
