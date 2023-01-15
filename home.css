@@ -152,6 +152,7 @@
   /* LINKS */
   .link {
     padding: 10px 40px;
+    font-size: 13px;
   }
   
   .sub-links ul {
@@ -248,6 +249,7 @@
 footer {
     text-align: center;
     color: var(--dark);
+    font-size: 13px;
   }
   .language-btn {
     display: inline-flex;
